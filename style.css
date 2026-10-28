@@ -1,0 +1,134 @@
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+body {
+  background: rgb(254, 167, 181)
+}
+
+Body{
+  font-family: 'Courier New', Courier, monospace;
+}
+h1 {
+    color: white;
+    font-size: 60px;
+    text-align: center;
+}
+
+H4 {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+h6{
+    color: palevioletred;
+    font-size: 15px;
+    text-align: center;
+
+}
+
+p {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+br {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* unvisited link */
+a:link {
+  color: white;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  color: yellow;
+}
+
+/* selected link */
+a:active {
+  color:palevioletred;
+}
+
+
+img {
+    width: 1245px;
+    display: block;
+    margin: 0 auto;
+}
+.menu-item {
+  background-color: pink;
+}
+
+.MijnDiv1{
+  background-color: pink
+}
+
+#MijnDiv2{
+  background-image:url('Images/Yellow\ div.jpg');
+  background-size: cover;
+
+  display: flex;
+  flex-direction: row;
+  flex-flow: column wrap;
+}
+
+.MijnDiv1 {
+    display: flex;
+    align-items: center;
+   justify-content: center;
+    gap: 30px;
+    margin: 10px;
+   border: 1px solid yellow
+}
+
+.MijnDiv1 img {
+    width: 200px;
+    margin: 10px;
+
+}
+
+.tekst {
+    text-align: center;
+}
+
+#MijnDiv3{
+  background-image:url('Images/Banner_onderkant.jpg');
+  background-size: cover;
+  height: 200px;
+  background-position-y: 550px;
+  
+}
+
+#blokje{
+  background-color: pink;
+  padding: 10px;
+  gap: 30px;
+}
+
+#myButton{
+  cursor: pointer;
+  background-color: white;
+}
